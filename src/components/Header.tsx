@@ -53,11 +53,11 @@ export default function Header() {
       <div className="max-w-6xl mx-auto px-3 sm:px-6 py-2.5 sm:py-3.5 flex items-center justify-between gap-2 sm:gap-4">
         {/* Brand identity */}
         <a href="#" aria-label="Sajid Tax Consultant Service Home" className="flex items-center gap-2 sm:gap-3 group text-left min-w-0">
-          <div className="w-9 h-9 sm:w-11 sm:h-11 rounded-full overflow-hidden bg-black border-2 border-amber-500/50 shadow-md ring-1 ring-amber-400/20 shrink-0 flex items-center justify-center group-hover:border-amber-400 group-hover:scale-105 transition-all">
+          <div className="w-9 h-9 sm:w-11 sm:h-11 rounded-full overflow-hidden bg-white border border-[#cbd5e1] shadow-xs ring-1 ring-slate-100 shrink-0 flex items-center justify-center p-0.5 group-hover:border-[#1d4ed8] group-hover:scale-105 transition-all">
             <img
               src="/images/logo-128.png"
               alt="Sajid Tax Consultant Official Logo"
-              className="w-full h-full object-cover"
+              className="w-full h-full object-contain"
               width="44"
               height="44"
               loading="eager"

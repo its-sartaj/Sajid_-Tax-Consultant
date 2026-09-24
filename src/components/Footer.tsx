@@ -16,11 +16,11 @@ export default function Footer() {
           {/* Col 1: Brand & Bio (4 cols) */}
           <div className="lg:col-span-4 space-y-4">
             <div className="flex items-center gap-3">
-              <div className="w-11 h-11 rounded-full overflow-hidden bg-black border-2 border-amber-500/60 shadow-lg ring-1 ring-amber-400/30 shrink-0 flex items-center justify-center">
+              <div className="w-11 h-11 rounded-full overflow-hidden bg-white border-2 border-white/20 shadow-md shrink-0 flex items-center justify-center p-0.5">
                 <img
                   src="/images/logo-128.png"
                   alt="Sajid Tax Consultant Official Logo"
-                  className="w-full h-full object-cover"
+                  className="w-full h-full object-contain"
                   width="44"
                   height="44"
                   loading="lazy"
